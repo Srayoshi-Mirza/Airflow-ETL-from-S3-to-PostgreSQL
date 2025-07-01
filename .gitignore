@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+
+# Logs and data
+logs/
+data/
+*.log
+
+# VSCode
+.vscode/
+
+# Docker
+*.pid
+*.db
+*.sqlite3
+*.sock
+
+# Airflow
+airflow.db
+airflow-webserver.pid
+dags/__pycache__/
+config/__pycache__/
+*.airflowignore
+
+# PyCharm or other IDEs
+.idea/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db
+
+# OS junk
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# PowerShell artifacts
+*.ps1xml
+*.pssc
+
+# Others
+*.bak
+*.swp
