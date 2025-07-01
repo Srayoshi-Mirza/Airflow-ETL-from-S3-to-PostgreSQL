@@ -130,7 +130,7 @@ docker-compose down -v --remove-orphans
 
 
 ### Flowchart
-```
+```mermaid
 flowchart TD
     A[Start ETL Pipeline] --> B[Create Tables]
     B --> C[Check Existing Data]
